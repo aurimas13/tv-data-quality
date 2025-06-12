@@ -1,0 +1,10 @@
+# 1.1  Install once → then **restart kernel**, then start at 1.2
+!pip -q install --upgrade \
+  ydata-profiling==4.7.0 \
+  sentence-transformers==2.6.1 \
+  keybert==0.8.4 \
+  rapidfuzz==3.7.1 \
+  fastapi==0.111.0 \
+  uvicorn[standard]==0.30.0
+
+# 🔄  IMPORTANT: now restart the runtime (Runtime ▸ Restart) and continue at 1.2
